@@ -1,0 +1,31 @@
+@import 'https://fonts.googleapis.com/css2?family=Righteous&family=Titillium+Web:wght@400;600&display=swap';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --branco: #fff;
+    --rosa: #c12d6b;
+    --azul: #0c7eae;
+    --azulP: #060821;
+    --azulC: #182246;
+
+    --font1: "Righteous", cursive;
+    --font2: "Titillium Web",  sans-serife;
+
+}
+
+.container {
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+body{
+    background-color: #fafafa;
+}
