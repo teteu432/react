@@ -2,10 +2,10 @@ function Saudacao(props) {
 return <h1>olá, {props.nome}!</h1>
 }
 
-<Saudacao nome="Simone"/>
+<Saudacao nome="Mateus"/>
 
 props = {
-    nome: "Simone"
+    nome: "Mateus"
 }
 
 function Produto(props) {
@@ -97,4 +97,16 @@ function FormularioLogin(){
             </button>
         </form>
     )
+}
+
+const [listaItens, setListaItens] = useState([]);
+
+function adicionarItem(novoItem) {
+    setListaItens([...listaItens, novoItem])
+}
+
+listaItens.push("React")
+
+function removerItens(itemParaRemover) {
+    setListaItens(listaItens.filter(item => item != itemParaRemover))
 }
