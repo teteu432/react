@@ -68,3 +68,4 @@ function FormularioCadastro() {
 }
 
 export default FormularioCadastro;
+//teste
